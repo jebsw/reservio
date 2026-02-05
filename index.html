@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <meta name="author" content="theme_ocean">
+    <!--! The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags !-->
+    <!--! BEGIN: Apps Title-->
+    <title>Reservio || Inicio de sesiónn</title>
+    <!--! END:  Apps Title-->
+    <!--! BEGIN: Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!--! END: Favicon-->
+    <!--! BEGIN: Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!--! END: Bootstrap CSS-->
+    <!--! BEGIN: Vendors CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/vendors.min.css">
+    <!--! END: Vendors CSS-->
+    <!--! BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css">
+    <!--! END: Custom CSS-->
+    <style>
+        :root {
+            --brand-orange: #F26522;
+            --brand-yellow: #F5B41C;
+            --brand-blue: #1F6FB2;
+            --brand-navy: #0E2A47;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0E2A47 55%, #1F6FB2 45%);
+        }
+
+        .bg-primary {
+            background-color: var(--brand-blue) !important;
+        }
+
+        .text-primary {
+            color: var(--brand-yellow) !important;
+        }
+
+        .btn-primary {
+            background-color: var(--brand-orange) !important;
+            border-color: var(--brand-orange) !important;
+        }
+
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background-color: #d4571e !important;
+            border-color: #d4571e !important;
+        }
+
+        .btn-light-brand {
+            background-color: #ffffff !important;
+            border-color: #ffffff !important;
+            color: var(--brand-navy) !important;
+        }
+
+        .btn-light-brand:hover,
+        .btn-light-brand:focus {
+            background-color: #fff4e6 !important;
+            border-color: #fff4e6 !important;
+        }
+
+        .auth-creative-wrapper .auth-creative-inner:after{
+            background:linear-gradient(135deg, #F5B41C 55%, #F26522 45%);
+            
+        }
+
+        .auth-creative-wrapper .col-lg-6.bg-primary {
+            background: linear-gradient(160deg, #1F6FB2 0%, #0E2A47 70%) !important;
+        }
+
+        .border-bottom {
+            border-bottom-color: rgba(14, 42, 71, 0.15) !important;
+        }
+    </style>
+    <!--! HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries !-->
+    <!--! WARNING: Respond.js doesn"t work if you view the page via file: !-->
+    <!--[if lt IE 9]>
+			<script src="https:oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https:oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+</head>
+
+<body class="app-font-family-ubuntu">
+    <!--! ================================================================ !-->
+    <!--! [Start] Main Content !-->
+    <!--! ================================================================ !-->
+    <main class="auth-creative-wrapper">
+        <div class="auth-creative-inner">
+            <div class="creative-card-wrapper">
+                <div class="card my-4 overflow-hidden" style="z-index: 1">
+                    <div class="row flex-1 g-0">
+                        <div class="col-lg-6 h-100 my-auto order-1 order-lg-0">
+                            <div class="wd-50 bg-white p-2 rounded-circle shadow-lg position-absolute translate-middle top-50 start-50 d-none d-lg-block">
+                                <img src="assets/images/icons/line-icon/shield.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="creative-card-body card-body p-sm-5">
+                                <h2 class="fs-20 fw-bolder mb-4">Iniciar sesión</h2>
+                                <h4 class="fs-13 fw-bold mb-2">Accede a tu cuenta</h4>
+                                <p class="fs-12 fw-medium text-muted">Gracias por usar <strong>Reservio</strong>, accede para gestionar tu sitio web.</p>
+                                <form action="index.html" class="w-100 mt-4 pt-2">
+                                    <div class="mb-4">
+                                        <input type="email" class="form-control" placeholder="Correo o usuario" value="wrapcode.info@gmail.com" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="password" class="form-control" placeholder="ContraseÃ±a" value="123456" required>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="rememberMe">
+                                                <label class="custom-control-label c-pointer" for="rememberMe">Recordarme</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="auth-reset-creative.html" class="fs-11 text-primary">¿Olvidaste tu contraseña?</a>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5">
+                                        <button type="submit" class="btn btn-lg btn-primary w-100">Iniciar sesión</button>
+                                    </div>
+                                </form>
+                                <div class="w-100 mt-5 text-center mx-auto">
+                                    <div class="mb-4 border-bottom position-relative"><span class="small py-1 px-3 text-uppercase text-muted bg-white position-absolute translate-middle">o</span></div>
+                                    <div class="d-flex align-items-center justify-content-center gap-2">
+                                        <a href="javascript:void(0);" class="btn btn-light-brand flex-fill" data-bs-toggle="tooltip" data-bs-trigger="hover" title="Iniciar sesión con Facebook">
+                                            <i class="feather-facebook"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" class="btn btn-light-brand flex-fill" data-bs-toggle="tooltip" data-bs-trigger="hover" title="Iniciar sesión con Twitter">
+                                            <i class="feather-twitter"></i>
+                                        </a>
+                                        <a href="javascript:void(0);" class="btn btn-light-brand flex-fill" data-bs-toggle="tooltip" data-bs-trigger="hover" title="Iniciar sesión con Github">
+                                            <i class="feather-github text"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="mt-5 text-muted">
+                                    <span>¿No tienes una cuenta?</span>
+                                    <a href="auth-register-creative.html" class="fw-bold">Crear una cuenta</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 bg-primary order-0 order-lg-1">
+                            <div class="h-100 d-flex align-items-center justify-content-center">
+                                <img src="assets/images/logo/reservioLogo.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--! ================================================================ !-->
+    <!--! [End] Main Content !-->
+    <!--! ================================================================ !-->
+<!--! ================================================================ !-->
+    <!--! Footer Script !-->
+    <!--! ================================================================ !-->
+    <!--! BEGIN: Vendors JS !-->
+    <script src="assets/vendors/js/vendors.min.js"></script>
+    <!-- vendors.min.js {always must need to be top} -->
+    <!--! END: Vendors JS !-->
+    <!--! BEGIN: Apps Init  !-->
+    <script src="assets/js/common-init.min.js"></script>
+    <!--! END: Apps Init !-->
+</body>
+
+</html>
